@@ -290,5 +290,17 @@
             ]
         }
 
-    ]           
+    ],
+    "banners": [
+        {
+            "id":1,
+            "title": "The Best Platform for Car Rental",
+            "description": "Ease of doing a car rental safetly and reliably. Of course at a low price"
+        },
+        {
+            "id":2,
+            "title": "Easy way to rent a car at a low price",
+            "description": "Providing cheap car rental services and safe and compfortable facilities"
+        }
+    ]         
 }
