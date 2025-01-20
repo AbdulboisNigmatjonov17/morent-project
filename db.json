@@ -1,3 +1,30 @@
 {
-    
+    "cars":[
+        {
+            "id": 1,
+            "about":[
+                {
+                    "title": "Koenigsegg",
+                    "type": "Sport",
+                    "gasoline": 80,
+                    "capacity": 2,
+                    "price": 99.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "like": false,
+                    "shop": false
+
+                }
+            ],
+            "details":[
+                {
+                    "star": 2,
+                    "reviewer": 220,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
+                }
+            ]
+            
+        }
+    ]
 }
