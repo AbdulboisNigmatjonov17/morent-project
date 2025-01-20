@@ -295,14 +295,16 @@
             "title": "The Best Platform for Car Rental",
             "description": "Ease of doing a car rental safetly and reliably. Of course at a low price",
             "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75",
-            "bg": "#c5c5c5"
+            "btn_bg": "#3563E9",
+            "bg": "#4ebeff"
         },
         {
             "id": 2,
             "title": "Easy way to rent a car at a low price",
             "description": "Providing cheap car rental services and safe and compfortable facilities",
             "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75",
-            "bg": "#c5c5c5"
+            "btn_bg": "#4ebeff",
+            "bg": "#3563E9"
         }
     ]
 }
