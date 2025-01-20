@@ -1,8 +1,8 @@
 {
-    "cars":[
+    "cars": [
         {
             "id": 1,
-            "about":[
+            "about": [
                 {
                     "title": "Koenigsegg",
                     "type": "Sport",
@@ -14,9 +14,8 @@
                     "like": false,
                     "shop": false
                 }
-               
             ],
-            "details":[
+            "details": [
                 {
                     "star": 2,
                     "reviewer": 220,
@@ -27,7 +26,7 @@
         },
         {
             "id": 2,
-            "about":[
+            "about": [
                 {
                     "title": "Nissan GT - R",
                     "type": "Sport",
@@ -38,9 +37,9 @@
                     "discout_price": 0,
                     "like": false,
                     "shop": false
-             }
+                }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 3,
                     "reviewer": 460,
@@ -51,7 +50,7 @@
         },
         {
             "id": 3,
-            "about":[
+            "about": [
                 {
                     "title": "Rolls - Royce",
                     "type": "Sedan",
@@ -59,12 +58,12 @@
                     "capacity": 4,
                     "price": 96.00,
                     "discout": false,
-                   "discout_price": 0,
+                    "discout_price": 0,
                     "like": false,
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 1,
                     "reviewer": 410,
@@ -75,7 +74,7 @@
         },
         {
             "id": 4,
-            "about":[
+            "about": [
                 {
                     "title": "All New Rush",
                     "type": "SUV",
@@ -88,7 +87,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 5,
                     "reviewer": 490,
@@ -99,7 +98,7 @@
         },
         {
             "id": 5,
-            "about":[
+            "about": [
                 {
                     "title": "Koenigsegg",
                     "type": "Sport",
@@ -112,7 +111,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 2,
                     "reviewer": 220,
@@ -123,7 +122,7 @@
         },
         {
             "id": 6,
-            "about":[
+            "about": [
                 {
                     "title": "Nissan GT - R",
                     "type": "Sport",
@@ -136,7 +135,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 3,
                     "reviewer": 460,
@@ -147,7 +146,7 @@
         },
         {
             "id": 7,
-            "about":[
+            "about": [
                 {
                     "title": "Rolls - Royce",
                     "type": "Sedan",
@@ -160,7 +159,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 1,
                     "reviewer": 410,
@@ -171,7 +170,7 @@
         },
         {
             "id": 8,
-            "about":[
+            "about": [
                 {
                     "title": "All New Rush",
                     "type": "SUV",
@@ -184,7 +183,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 5,
                     "reviewer": 490,
@@ -195,7 +194,7 @@
         },
         {
             "id": 9,
-            "about":[
+            "about": [
                 {
                     "title": "CR - V",
                     "type": "SUV",
@@ -208,7 +207,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 5,
                     "reviewer": 4520,
@@ -219,7 +218,7 @@
         },
         {
             "id": 10,
-            "about":[
+            "about": [
                 {
                     "title": "All New Terios",
                     "type": "SUV",
@@ -232,7 +231,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 3,
                     "reviewer": 410,
@@ -243,7 +242,7 @@
         },
         {
             "id": 11,
-            "about":[
+            "about": [
                 {
                     "title": "New MG ZS",
                     "type": "SUV",
@@ -256,7 +255,7 @@
                     "shop": false
                 }
             ],
-            "details":[
+            "details": [
                 {
                     "star": 4,
                     "reviewer": 120,
@@ -267,7 +266,7 @@
         },
         {
             "id": 12,
-            "about":[
+            "about": [
                 {
                     "title": "MG ZX Exclusive",
                     "type": "Hatchaback",
@@ -280,7 +279,7 @@
                     "shop": false
                 }
             ],
-             "details":[
+            "details": [
                 {
                     "star": 2,
                     "reviewer": 100,
@@ -289,18 +288,21 @@
                 }
             ]
         }
-
     ],
     "banners": [
         {
-            "id":1,
+            "id": 1,
             "title": "The Best Platform for Car Rental",
-            "description": "Ease of doing a car rental safetly and reliably. Of course at a low price"
+            "description": "Ease of doing a car rental safetly and reliably. Of course at a low price",
+            "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75",
+            "bg": "#c5c5c5"
         },
         {
-            "id":2,
+            "id": 2,
             "title": "Easy way to rent a car at a low price",
-            "description": "Providing cheap car rental services and safe and compfortable facilities"
+            "description": "Providing cheap car rental services and safe and compfortable facilities",
+            "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75",
+            "bg": "#c5c5c5"
         }
-    ]         
+    ]
 }
