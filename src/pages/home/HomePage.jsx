@@ -1,11 +1,13 @@
 import Banners from '../../components/banner/Banners'
-import StateImages from '../../components/state-img/StateImages'
+import Comment from '../../components/comments/Comment'
+// import StateImages from '../../components/state-img/StateImages'
 
 const HomePage = () => {
   return (
     <>
       <Banners/>
-      <StateImages/>
+      {/* <StateImages/> */}
+      <Comment/>
     </>
   )
 }
