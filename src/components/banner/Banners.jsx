@@ -1,6 +1,7 @@
-import axios from "axios"
 import { useEffect, useState } from "react"
 import BannerCard from "./BannerCard"
+import axios from "../service/Api"
+
 const Banners = () => {
 
     const [bannerData, setBannerData] = useState([])
@@ -8,7 +9,7 @@ const Banners = () => {
     useEffect(() => {
         const getData = async () => {
             try {
-                const bnData = await axios.get('http://localhost:8000/banners')
+                const bnData = await axios.get('/banners')
                 setBannerData(bnData.data)
             } catch (error) {
                 console.log(error)
@@ -29,5 +30,8 @@ const Banners = () => {
         </>
     )
 }
-
+// const updatedData = bnData.data.map((item) => ({
+//     ...item,
+//     like: true
+// }));
 export default Banners
