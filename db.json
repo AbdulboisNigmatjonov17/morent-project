@@ -306,5 +306,31 @@
             "btn_bg": "#4ebeff",
             "bg": "#3563E9"
         }
+    ],
+    "footer": [
+        {
+            "id": 1,
+            "title": "About",
+            "p": "How it works",
+            "p1": "Featured",
+            "p2": "Partnership",
+            "p3": "Bussiness Relation"
+        },
+        {
+            "id": 2,
+            "title": "Socials",
+            "p": "Discord",
+            "p1": "Instagram",
+            "p2": "Twitter",
+            "p3": "Facebook Relation"
+        },
+        {
+            "id": 3,
+            "title": "Commiunity",
+            "p": "Events",
+            "p1": "Blog",
+            "p2": "Podcast",
+            "p3": "Invite a friend"
+        }
     ]
 }
