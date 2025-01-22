@@ -44,10 +44,10 @@ function Comment() {
   };
 
   return (
-    <div className='bg-[#60ff17] max-w-full min-h-[200px] flex flex-col justify-between pt-5 pb-16  px-10'>
+    <div className='bg-white rounded-2xl max-w-full min-h-[150px] flex flex-col justify-between py-5 px-10 gap-5'>
       <h1 className='bg-inherit text-[25px] font-semibold'>Reviews <span className='py-1 px-4 rounded-lg  bg-[#3563E9] text-white'>{tasks.length}</span></h1>
-      <CommentList tasks={tasks} deleteTask={deleteTask} updateTask={updateTask} />
       <CommentInput addTask={addTask} error={error} />
+      <CommentList tasks={tasks} deleteTask={deleteTask} updateTask={updateTask} />
     </div>
   );
 }

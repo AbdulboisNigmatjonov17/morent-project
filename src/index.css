@@ -6,8 +6,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(246, 247, 249, 0.5)
-  ;
+}
+body{
+  background-color: rgba(246, 247, 249, 0.5);
 }
 .Container{
   max-width: 1350px;

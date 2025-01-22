@@ -11,20 +11,18 @@ function CommentInput({ addTask, error }) {
     };
 
     return (
-        <form onSubmit={handleAddTask} className='mt-10 max-w-full relative flex justify-between pl-3 rounded-lg bg-white'>
-            <div className='max-w-full flex flex-col'>
+        <form onSubmit={handleAddTask} className=' w-[100%] relative flex justify-between rounded-lg bg-white'>
+            <div className='w-full flex gap-5'>
                 <input
                     type="text"
                     value={newTask}
                     onChange={(e) => setNewTask(e.target.value)}
                     placeholder="Add a new task..."
-                    className='max-w-[960px] focus:outline-none py-3'
+                    className='w-full focus:outline-none py-3 px-5 focus:border-b-[2px] border-black'
                 />
-                <div className='absolute -bottom-12 right-0'>
                 <BtnSM text={'Add'} btn_bg={'#3563E9'} />
-                </div>
             </div>
-            {error && <p className='absolute -bottom-5 right-0' style={{ color: 'red' }}>{error}</p>}
+            {error && <p className='absolute -bottom-6 left-0' style={{ color: 'red' }}>{error}</p>}
         </form>
     );
 }
