@@ -1,0 +1,348 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "like": false,
+            "about": [
+                {
+                    "title": "Koenigsegg",
+                    "type": "Sport",
+                    "gasoline": 80,
+                    "capacity": 2,
+                    "price": 99.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 2,
+                    "reviewer": 220,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "like": false,
+            "about": [
+                {
+                    "title": "Nissan GT - R",
+                    "type": "Sport",
+                    "gasoline": 90,
+                    "capacity": 2,
+                    "price": 80.00,
+                    "discout": 100.00,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 3,
+                    "reviewer": 460,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "like": false,
+            "about": [
+                {
+                    "title": "Rolls - Royce",
+                    "type": "Sedan",
+                    "gasoline": 70,
+                    "capacity": 4,
+                    "price": 96.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 1,
+                    "reviewer": 410,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "like": false,
+            "about": [
+                {
+                    "title": "All New Rush",
+                    "type": "SUV",
+                    "gasoline": 70,
+                    "capacity": 6,
+                    "price": 72.00,
+                    "discout": 80.00,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 5,
+                    "reviewer": 490,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "like": false,
+            "about": [
+                {
+                    "title": "Koenigsegg",
+                    "type": "Sport",
+                    "gasoline": 80,
+                    "capacity": 2,
+                    "price": 99.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 2,
+                    "reviewer": 220,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "like": false,
+            "about": [
+                {
+                    "title": "Nissan GT - R",
+                    "type": "Sport",
+                    "gasoline": 90,
+                    "capacity": 2,
+                    "price": 80.00,
+                    "discout": 100.00,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 3,
+                    "reviewer": 460,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "like": false,
+            "about": [
+                {
+                    "title": "Rolls - Royce",
+                    "type": "Sedan",
+                    "gasoline": 70,
+                    "capacity": 4,
+                    "price": 96.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 1,
+                    "reviewer": 410,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "like": false,
+            "about": [
+                {
+                    "title": "All New Rush",
+                    "type": "SUV",
+                    "gasoline": 70,
+                    "capacity": 6,
+                    "price": 72.00,
+                    "discout": 80.00,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 5,
+                    "reviewer": 490,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "like": false,
+            "about": [
+                {
+                    "title": "CR - V",
+                    "type": "SUV",
+                    "gasoline": 80,
+                    "capacity": 6,
+                    "price": 80.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-2.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 5,
+                    "reviewer": 4520,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-2.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "like": false,
+            "about": [
+                {
+                    "title": "All New Terios",
+                    "type": "SUV",
+                    "gasoline": 90,
+                    "capacity": 6,
+                    "price": 74.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-3.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 3,
+                    "reviewer": 410,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-3.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "like": false,
+            "about": [
+                {
+                    "title": "New MG ZS",
+                    "type": "SUV",
+                    "gasoline": 80,
+                    "capacity": 6,
+                    "price": 80.00,
+                    "discout": false,
+                    "discout_price": 0,
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-4.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 4,
+                    "reviewer": 120,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-4.png&w=256&q=75"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "like": false,
+            "about": [
+                {
+                    "title": "MG ZX Exclusive",
+                    "type": "Hatchaback",
+                    "gasoline": 70,
+                    "capacity": 6,
+                    "price": 72.00,
+                    "discout": 80.00,
+                    "discout_price": 0,
+                    "shop": false,
+                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
+                }
+            ],
+            "details": [
+                {
+                    "star": 2,
+                    "reviewer": 100,
+                    "description": "NISMO has become the embodiment of Nissan's outstanding performance, inspired by the most unforgiving proving ground, the 'race track'.",
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
+                }
+            ]
+        }
+    ],
+    "banners": [
+        {
+            "id": 1,
+            "title": "The Best Platform for Car Rental",
+            "description": "Ease of doing a car rental safetly and reliably. Of course at a low price",
+            "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75",
+            "btn_bg": "#3563E9",
+            "bg": "#4ebeff"
+        },
+        {
+            "id": 2,
+            "title": "Easy way to rent a car at a low price",
+            "description": "Providing cheap car rental services and safe and compfortable facilities",
+            "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75",
+            "btn_bg": "#4ebeff",
+            "bg": "#3563E9"
+        }
+    ],
+    "footer": [
+        {
+            "id": 1,
+            "title": "About",
+            "p": "How it works",
+            "p1": "Featured",
+            "p2": "Partnership",
+            "p3": "Bussiness Relation"
+        },
+        {
+            "id": 2,
+            "title": "Socials",
+            "p": "Discord",
+            "p1": "Instagram",
+            "p2": "Twitter",
+            "p3": "Facebook Relation"
+        },
+        {
+            "id": 3,
+            "title": "Commiunity",
+            "p": "Events",
+            "p1": "Blog",
+            "p2": "Podcast",
+            "p3": "Invite a friend"
+        }
+    ]
+}
