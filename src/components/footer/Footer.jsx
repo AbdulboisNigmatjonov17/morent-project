@@ -52,7 +52,7 @@ const Footer = () => {
             <li>Terms & Condition</li>
           </div>
           <div>
-          <li className="text-lg pr-8">©2022 MORENT. All rights reserved</li>
+            <li className="text-lg pr-8">©2022 MORENT. All rights reserved</li>
           </div>
         </ul>
       </div>
