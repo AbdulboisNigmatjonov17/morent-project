@@ -32,14 +32,14 @@ const Footer = () => {
           {footerData.map((item) => (
             <ul key={item.id} className="flex flex-col pr-8 gap-3">
               <h1 className="text-xl font-semibold">{item.title}</h1>
-              <li className="text-lg pt-3 font-medium text-[#7bbad1]">
+              <a href="/"><li className="text-lg pt-3 font-medium text-[#7bbad1]">
                 {item.p}
-              </li>
-              <li className="text-lg font-medium text-[#7bbad1]">{item.p1}</li>
-              <li className="text-lg font-medium text-[#7bbad1]">{item.p2}</li>
-              <li className="pb-8 text-lg font-medium text-[#7bbad1]">
+              </li> </a>
+              <a href="https://www.instagram.com/nazarovvv_o1/"><li className="text-lg font-medium text-[#7bbad1]">{item.p1}</li></a>
+              <a href="/"><li className="text-lg font-medium text-[#7bbad1]">{item.p2}</li></a>
+              <a href="/"><li className="pb-8 text-lg font-medium text-[#7bbad1]">
                 {item.p3}
-              </li>
+              </li></a>
             </ul>
           ))}
         </div>
@@ -52,7 +52,7 @@ const Footer = () => {
             <li>Terms & Condition</li>
           </div>
           <div>
-            <li className="text-lg pr-8">©2022 MORENT. All rights reserved</li>
+          <li className="text-lg pr-8">©2022 MORENT. All rights reserved</li>
           </div>
         </ul>
       </div>
