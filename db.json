@@ -2,6 +2,7 @@
     "cars": [
         {
             "id": 1,
+            "like": false,
             "about": [
                 {
                     "title": "Koenigsegg",
@@ -11,7 +12,6 @@
                     "price": 99.00,
                     "discout": false,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
                 }
@@ -27,6 +27,7 @@
         },
         {
             "id": 2,
+            "like": false,
             "about": [
                 {
                     "title": "Nissan GT - R",
@@ -36,7 +37,6 @@
                     "price": 80.00,
                     "discout": 100.00,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
                 }
@@ -52,6 +52,7 @@
         },
         {
             "id": 3,
+            "like": false,
             "about": [
                 {
                     "title": "Rolls - Royce",
@@ -61,7 +62,6 @@
                     "price": 96.00,
                     "discout": false,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
                 }
@@ -77,6 +77,7 @@
         },
         {
             "id": 4,
+            "like": false,
             "about": [
                 {
                     "title": "All New Rush",
@@ -86,7 +87,6 @@
                     "price": 72.00,
                     "discout": 80.00,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
                 }
@@ -102,6 +102,7 @@
         },
         {
             "id": 5,
+            "like": false,
             "about": [
                 {
                     "title": "Koenigsegg",
@@ -111,7 +112,6 @@
                     "price": 99.00,
                     "discout": false,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
                 }
@@ -127,6 +127,7 @@
         },
         {
             "id": 6,
+            "like": false,
             "about": [
                 {
                     "title": "Nissan GT - R",
@@ -136,7 +137,6 @@
                     "price": 80.00,
                     "discout": 100.00,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
                 }
@@ -152,6 +152,7 @@
         },
         {
             "id": 7,
+            "like": false,
             "about": [
                 {
                     "title": "Rolls - Royce",
@@ -161,7 +162,6 @@
                     "price": 96.00,
                     "discout": false,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
                 }
@@ -177,6 +177,7 @@
         },
         {
             "id": 8,
+            "like": false,
             "about": [
                 {
                     "title": "All New Rush",
@@ -186,7 +187,6 @@
                     "price": 72.00,
                     "discout": 80.00,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
                 }
@@ -202,6 +202,7 @@
         },
         {
             "id": 9,
+            "like": false,
             "about": [
                 {
                     "title": "CR - V",
@@ -211,7 +212,6 @@
                     "price": 80.00,
                     "discout": false,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-2.png&w=256&q=75"
                 }
@@ -227,6 +227,7 @@
         },
         {
             "id": 10,
+            "like": false,
             "about": [
                 {
                     "title": "All New Terios",
@@ -236,7 +237,6 @@
                     "price": 74.00,
                     "discout": false,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-3.png&w=256&q=75"
                 }
@@ -252,6 +252,7 @@
         },
         {
             "id": 11,
+            "like": false,
             "about": [
                 {
                     "title": "New MG ZS",
@@ -261,7 +262,6 @@
                     "price": 80.00,
                     "discout": false,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-4.png&w=256&q=75"
                 }
@@ -277,6 +277,7 @@
         },
         {
             "id": 12,
+            "like": false,
             "about": [
                 {
                     "title": "MG ZX Exclusive",
@@ -286,7 +287,6 @@
                     "price": 72.00,
                     "discout": 80.00,
                     "discout_price": 0,
-                    "like": false,
                     "shop": false,
                      "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
                 }

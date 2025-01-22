@@ -30,8 +30,5 @@ const Banners = () => {
         </>
     )
 }
-// const updatedData = bnData.data.map((item) => ({
-//     ...item,
-//     like: true
-// }));
+
 export default Banners

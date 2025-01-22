@@ -11,7 +11,7 @@ function CommentInput({ addTask, error }) {
     };
 
     return (
-        <form onSubmit={handleAddTask} className=' w-[100%] relative flex justify-between rounded-lg bg-white'>
+        <form onSubmit={handleAddTask} className='mb-5 w-[100%] relative flex justify-between rounded-lg bg-white'>
             <div className='w-full flex gap-5'>
                 <input
                     type="text"

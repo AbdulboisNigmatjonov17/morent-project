@@ -5,7 +5,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 function CommentItem({ task, deleteTask, updateTask }) {
     const [isEditing, setIsEditing] = useState(false);
     const [editedTitle, setEditedTitle] = useState(task.title);
-    
+
     const handleSave = () => {
         updateTask(task.id, editedTitle);
         setIsEditing(false);
@@ -15,17 +15,15 @@ function CommentItem({ task, deleteTask, updateTask }) {
         <li className=''>
             <div className='relative'>
                 {isEditing ? (
-                    <>
+                    <form className='flex items-center gap-10'>
                         <input
                             type="text"
                             value={editedTitle}
                             onChange={(e) => setEditedTitle(e.target.value)}
-                            className='min-w-full focus:outline-none mb-10 py-3 px-2 '
+                            className='w-full focus:outline-none mb-10 py-3 px-2 focus:border-b-[2px] border-black'
                         />
-                        <div className='absolute -bottom-3 right-0'>
-                            <BtnSM onClick={handleSave} text={'save'} btn_bg={'#4ebeff'} />
-                        </div>
-                    </>
+                        <BtnSM onClick={handleSave} text={'save'} btn_bg={'#4ebeff'} />
+                    </form>
                 ) : (
                     <>
                         <div className='flex flex-col gap-5 px-10 py-5 rounded-2xl w-[100%] bg-[#f8f8f8]'>
