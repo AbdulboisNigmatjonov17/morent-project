@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-white p-10 mt-[50px]">
-      <div className="flex justify-between items-start bg-inherit">
+      <div className="flex justify-between items-start">
         <div>
           <Logo />
           <p className="text-lg pt-3 w-[300px] text-[#7bbad1]">
@@ -28,7 +28,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="bg-inherit ml-auto flex gap-3">
+        <div className="ml-auto flex gap-3">
           {footerData.map((item) => (
             <ul key={item.id} className="flex flex-col pr-8 gap-3">
               <h1 className="text-xl font-semibold">{item.title}</h1>
@@ -52,7 +52,7 @@ const Footer = () => {
             <li>Terms & Condition</li>
           </div>
           <div>
-          <li className="text-lg pr-8">©2022 MORENT. All rights reserved</li>
+            <li className="text-lg pr-8">©2022 MORENT. All rights reserved</li>
           </div>
         </ul>
       </div>
