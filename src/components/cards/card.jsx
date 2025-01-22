@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+import axios from "../service/Api";
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
 import BtnSM from "../btns/btnSM";
@@ -19,7 +19,7 @@ const Card = () => {
     getCard();
   }, []);
 
-  const handleLike = (itemId) => {
+  const handleLike = async (itemId) => {
     const currentLikes = JSON.parse(localStorage.getItem('likedCars')) || [];
     
     if (currentLikes.includes(itemId)) {
@@ -33,7 +33,7 @@ const Card = () => {
     // API'ga so'rov yuborish (itemId'ni to'g'ri yuborish)
     const updatedData = { like: !currentLikes.includes(itemId) };
     try {
-      axios.put(`/cars/${itemId}`, updatedData);  // itemId'ni to'g'ri yuborish
+      await axios.put(`/cars/${itemId}`, updatedData);  // itemId'ni to'g'ri yuborish
     } catch (error) {
       console.error("Error updating like status:", error);
     }
