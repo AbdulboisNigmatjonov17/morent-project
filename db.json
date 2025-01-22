@@ -12,7 +12,8 @@
                     "discout": false,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -36,7 +37,8 @@
                     "discout": 100.00,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -60,7 +62,8 @@
                     "discout": false,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -84,7 +87,8 @@
                     "discout": 80.00,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -108,7 +112,8 @@
                     "discout": false,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar1.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -132,7 +137,8 @@
                     "discout": 100.00,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -156,7 +162,8 @@
                     "discout": false,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar3.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -180,7 +187,8 @@
                     "discout": 80.00,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -204,7 +212,8 @@
                     "discout": false,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-2.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -228,7 +237,8 @@
                     "discout": false,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-3.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -252,7 +262,8 @@
                     "discout": false,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                    "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-4.png&w=256&q=75"
                 }
             ],
             "details": [
@@ -276,7 +287,8 @@
                     "discout": 80.00,
                     "discout_price": 0,
                     "like": false,
-                    "shop": false
+                    "shop": false,
+                     "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
                 }
             ],
             "details": [

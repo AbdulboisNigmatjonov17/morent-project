@@ -18,18 +18,29 @@ const Card = () => {
 
   return (
     <header>
-      <div>
-        {cardData.map((index) => (
-          <div key={index.id}>
-            <h1>{index.title}</h1>
-            <p>{index.Sport}</p>
-            <img src={index.img} alt={`Image of ${index.title}`} />
-          </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
+        {cardData.map((item) => (
+          item.about.map((aboutItem) => (
+            <div 
+              key={item.id} 
+              className="bg-white p-4 rounded-lg  "
+            >
+              <h1 className="text-xl font-bold mb-2">{aboutItem.title}</h1>
+              <p className="text-sm text-[#7bbad1] mb-2">{aboutItem.type}</p>
+              <div className="w-full flex justify-center">  
+              <img src={aboutItem.img} alt="carFoto" />
+              </div>
+              <div className="text-center flex justify-center gap-4">
+              <p className="text-sm text-[#7bbad1]">{aboutItem.gasoline}L</p>
+              <p className="text-sm text-[#7bbad1]">{aboutItem.capacity} people</p>
+              </div>
+              <h1 className="text-lg font-semibold  mt-2">${aboutItem.price} /day</h1>
+            </div>
+          ))
         ))}
       </div>
     </header>
   );
-};
-
+}
 export default Card;
 
