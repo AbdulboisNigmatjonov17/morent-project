@@ -3,7 +3,7 @@
     {
       "id": 1,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
@@ -29,7 +29,7 @@
     {
       "id": 2,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
@@ -55,7 +55,7 @@
     {
       "id": 3,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
