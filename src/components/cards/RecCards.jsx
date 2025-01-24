@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from '../service/Api';
 import CardComp from './CardComp'
 import BtnAll from '../btns/btnAll';
+import BtnSM from '../btns/btnSM';
 
 const RecCards = () => {
     const [data, setData] = useState([]);
@@ -36,6 +37,9 @@ const RecCards = () => {
                         </div>
                     ))
                 }
+            </div>
+            <div className="w-full flex justify-center">
+                <BtnSM btn_bg={'#3563E9'} text={'Show More Car'} />
             </div>
         </div>
     );
