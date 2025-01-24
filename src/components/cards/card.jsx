@@ -22,21 +22,18 @@ const Card = () => {
     getCard();
   }, []);
 
-  // LocalStorage bilan ishlash uchun like funksiyasi
   const handleLike = (itemId) => {
     const likedCarsString = localStorage.getItem("likedCars");
     const likedCars = likedCarsString ? JSON.parse(likedCarsString) : [];
 
     if (likedCars.includes(itemId)) {
-      // Agar like qilingan bo'lsa, undan olib tashlash
       const updatedLikes = likedCars.filter((id) => id !== itemId);
       localStorage.setItem("likedCars", JSON.stringify(updatedLikes));
     } else {
-      // Agar hali like qilinmagan bo'lsa, qo'shish
       localStorage.setItem("likedCars", JSON.stringify([...likedCars, itemId]));
     }
 
-    // Like qilingan ma'lumotlarni qayta yuklash
+
     setCard((prevData) =>
       prevData.map((item) =>
         item.id === itemId ? { ...item, isLiked: !item.isLiked } : item
@@ -48,7 +45,6 @@ const Card = () => {
     <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8">
       {cardData.map((item) => (
         item.about?.map((aboutItem) => {
-          // LocalStorage'dan like holatini olish
           const likedCarsString = localStorage.getItem("likedCars");
           const likedCars = likedCarsString ? JSON.parse(likedCarsString) : [];
           const isLiked = likedCars.includes(item.id);

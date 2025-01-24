@@ -356,5 +356,38 @@
       "p2": "Podcast",
       "p3": "Invite a friend"
     }
-  ]
+  ],
+
+ "Pick-Up": [
+    {
+        "id": 1,
+        "h1": "Loacations",
+        "p": "Select your city"
+    },
+    {
+        "id": 2,
+        "h1": "Date",
+        "p": "Select your date"
+    },
+    {
+        "id": 3,
+        "h1": "Time",
+        "p": "Select your time"
+    },
+    {
+        "id": 4,
+        "h1": "Loacations",
+        "p": "Select your city"
+    },
+    {
+        "id": 5,
+        "h1": "Loacations",
+        "p": "Select your date"
+    },
+    {
+        "id": 6,
+        "h1": "Loacations",
+        "p": "Select your time"
+    }
+ ]
 }
