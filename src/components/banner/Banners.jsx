@@ -18,6 +18,7 @@ const Banners = () => {
         getData()
     }, [])
 
+
     return (
         <>
             <div className="banners my-10 w-full flex gap-10 justify-between px-10">

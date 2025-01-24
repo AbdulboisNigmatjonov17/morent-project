@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Layout from "./Layout"
 import ErrorPage from "./pages/error/ErrorPage"
 import HomePage from "./pages/home/HomePage"
+import CardPage from "./pages/products/CardPage"
 
 const App = () => {
 
@@ -14,6 +15,10 @@ const App = () => {
         {
           index: true,
           element: <HomePage/>
+        },
+        {
+          path: `/card`,
+          element: <CardPage/>
         }
       ]
     }

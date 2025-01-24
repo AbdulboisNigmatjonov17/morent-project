@@ -9,12 +9,14 @@ const StateImages = () => {
 
     return (
         <>
-            <div className='w-[50%] flex flex-col gap-5'>
-                <img src={img} alt="state-img-main" className='rounded-2xl max-w-full'/>
+            <div className='w-[40%] flex flex-col gap-5'>
+                <div className='w-full h-[450px]'>
+                    <img src={img} alt="state-img-main" className='rounded-2xl w-full' />
+                </div>
                 <div className="imgs flex justify-between ">
-                    <img src={img1} width={200} height={200} onClick={() => setImg(img1)} alt="state-img-1" className='rounded-xl' />
-                    <img src={img2} width={200} height={200} onClick={() => setImg(img2)} alt="state-img-2" className='rounded-xl' />
-                    <img src={img3} width={200} height={200} onClick={() => setImg(img3)} alt="state-img-3" className='rounded-xl' />
+                    <img src={img1} width={150} height={150} onClick={() => setImg(img1)} alt="state-img-1" className='rounded-xl' />
+                    <img src={img2} width={150} height={150} onClick={() => setImg(img2)} alt="state-img-2" className='rounded-xl' />
+                    <img src={img3} width={150} height={150} onClick={() => setImg(img3)} alt="state-img-3" className='rounded-xl' />
                 </div>
             </div>
         </>
