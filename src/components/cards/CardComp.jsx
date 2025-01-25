@@ -14,7 +14,8 @@ const Card = ({ item, about, setData }) => {
 
     if (likedCars.includes(id)) {
       // Agar like qilingan bo'lsa, undan olib tashlash
-      const updatedLikes = likedCars.filter((id) => id !== id);
+      // const updatedLikes = likedCars.filter((id) => id !== id);
+      const updatedLikes = likedCars.filter((likedId) => likedId !== id);
       localStorage.setItem("likedCars", JSON.stringify(updatedLikes));
     } else {
       // Agar hali like qilinmagan bo'lsa, qo'shish
@@ -40,6 +41,7 @@ const Card = ({ item, about, setData }) => {
         <div className="w-full flex justify-between">
           <div>
             <h1 className="text-xl font-bold mb-2">{about.title}</h1>
+            {/* <h1 className="text-xl font-bold mb-2">{about?.title || 'No title available'}</h1> */}
             <p className="text-sm text-[#7bbad1] mb-2">{about.type}</p>
           </div>
           <div className="cursor-pointer">
@@ -58,7 +60,7 @@ const Card = ({ item, about, setData }) => {
           </div>
         </div>
         <div className="flex justify-center h-[150px] items-center">
-          <NavLink to={`/card`}>
+          <NavLink to={`/card/${item.id}`}>
             <img className="w-[250px] pt-4" src={about.img} alt="cardImg" />
           </NavLink>
         </div>
@@ -83,7 +85,7 @@ const Card = ({ item, about, setData }) => {
             }
             
           </div>
-          <NavLink to={`/card/${item.id}`}>
+          <NavLink to={`/cardRent/${item.id}`}>
             <BtnSM text={"Rent Now"} btn_bg={"#3563E9"} />
           </NavLink>
         </div>

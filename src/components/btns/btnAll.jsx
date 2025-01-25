@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const BtnAll = () => {
     return (
         <button className='text-blue-500 font-semibold text-[20px] capitalize'>
-            <NavLink to={'/all-cards'}>
+            <NavLink to={'/cards'}>
                 view all
             </NavLink>
         </button>

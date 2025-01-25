@@ -5,6 +5,7 @@ import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
 import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 import NotificationsSharpIcon from '@mui/icons-material/NotificationsSharp';
 import FavoriteSharpIcon from '@mui/icons-material/FavoriteSharp';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -36,7 +37,9 @@ const Navbar = () => {
               <NotificationsSharpIcon className='rounded-full cursor-pointer' />
             </div>
             <div className="icon rounded-full border-[#c1c1c1] border-[1px] p-2">
+              <NavLink to={'/like'}>
               <FavoriteSharpIcon className='rounded-full cursor-pointer' />
+              </NavLink>
             </div>
             <div className="icon rounded-full cursor-pointer flex justify-center">
               <img src={user} width={60} alt="uer-img" className='rounded-full transition ease-in-out delay-150 hover:scale-125' />

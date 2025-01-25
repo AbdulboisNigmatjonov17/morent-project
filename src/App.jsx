@@ -3,6 +3,9 @@ import Layout from "./Layout"
 import ErrorPage from "./pages/error/ErrorPage"
 import HomePage from "./pages/home/HomePage"
 import CardPage from "./pages/products/CardPage"
+import MainPage from "./pages/all-cards/MainPage"
+import LikePage from "./pages/like/LikePage"
+import RentCard from "./pages/rent/RentCard"
 
 const App = () => {
 
@@ -17,8 +20,20 @@ const App = () => {
           element: <HomePage/>
         },
         {
-          path: `/card`,
+          path: '/card/:id',
           element: <CardPage/>
+        },
+        {
+          path: '/cards',
+          element: <MainPage/>
+        },
+        {
+          path: 'like',
+          element: <LikePage/>
+        },
+        {
+          path: 'cardRent/:id',
+          element: <RentCard/>
         }
       ]
     }
