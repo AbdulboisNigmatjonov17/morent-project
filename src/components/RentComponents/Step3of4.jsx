@@ -1,6 +1,10 @@
 import React from 'react'
 
 const Step3of4 = () => {
+
+    const visa = 'https://morent-website.vercel.app/_next/image?url=%2Fimages%2Flogo%2FVisa.png&w=96&q=75'
+    const paypal = 'https://morent-website.vercel.app/_next/image?url=%2Fimages%2Flogo%2FPayPal.png&w=96&q=75'
+    const bitcoin = 'https://morent-website.vercel.app/_next/image?url=%2Fimages%2Flogo%2FBitcoin.png&w=96&q=75'
     return (
         <div className='bg-white w-[50%] py-5 px-10 rounded-lg'>
             <div className='w-full flex justify-between'>
@@ -10,15 +14,20 @@ const Step3of4 = () => {
                 </div>
                 <h3>Step 3 of 4</h3>
             </div>
-            <form>
-                <div className='bg-[#eeee]'>
-                    <div>
-                        <input type="radio" id="age1" name="age" value="30" />
-                        <label htmlFor="age1">
-                            Credit Card
-                        </label>
+            <form className='flex flex-col gap-5'>
+                <div className='bg-[#eeee] py-2 px-3 rounded-md'>
+                    <div className='w-full flex justify-between'>
+                        <div className='flex gap-3'>
+                            <input type="radio" id="age1" name="age" value="30" />
+                            <label htmlFor="age1">
+                                Credit Card
+                            </label>
+                        </div>
+                        <div>
+                            <img src={visa} alt="" />
+                        </div>
                     </div>
-                    <div className='py-1 px-2'>
+                    <div className='py-2 px-4'>
                         <div className='flex justify-between gap-5'>
                             <div className='flex flex-col '>
                                 <label htmlFor="name" className='font-semibold'>Name</label>
@@ -41,17 +50,27 @@ const Step3of4 = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <input type="radio" id="age2" name="age" value="60" />
-                    <label htmlFor="age2">
-
-                    </label>
+                <div className='flex justify-between py-2 px-4 pb-10 rounded-md bg-[#eeee]'>
+                    <div className='flex gap-3'>
+                        <input type="radio" id="age2" name="age" value="60" />
+                        <label htmlFor="age2">
+                            PayPal
+                        </label>
+                    </div>
+                    <div>
+                        <img src={paypal} alt="" />
+                    </div>
                 </div>
-                <div>
-                    <input type="radio" id="age3" name="age" value="100" />
-                    <label htmlFor="age3">
-
-                    </label>
+                <div className='flex justify-between py-2 px-4 pb-10 rounded-md bg-[#eeee]'>
+                    <div className='flex gap-3'>
+                        <input type="radio" id="age3" name="age" value="100" />
+                        <label htmlFor="age3">
+                            Bitcoin
+                        </label>
+                    </div>
+                    <div>
+                        <img src={bitcoin} alt="" />
+                    </div>
                 </div>
             </form>
         </div>

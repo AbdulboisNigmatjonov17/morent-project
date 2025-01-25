@@ -14,9 +14,9 @@ const StateImages = () => {
                     <img src={img} alt="state-img-main" className='rounded-2xl w-full' />
                 </div>
                 <div className="imgs flex justify-between ">
-                    <img src={img1} width={150} height={150} onClick={() => setImg(img1)} alt="state-img-1" className='rounded-xl' />
-                    <img src={img2} width={150} height={150} onClick={() => setImg(img2)} alt="state-img-2" className='rounded-xl' />
-                    <img src={img3} width={150} height={150} onClick={() => setImg(img3)} alt="state-img-3" className='rounded-xl' />
+                    <img src={img1} width={150} height={150} onClick={() => setImg(img1)} alt="state-img-1" className='rounded-xl cursor-pointer' />
+                    <img src={img2} width={150} height={150} onClick={() => setImg(img2)} alt="state-img-2" className='rounded-xl cursor-pointer' />
+                    <img src={img3} width={150} height={150} onClick={() => setImg(img3)} alt="state-img-3" className='rounded-xl cursor-pointer' />
                 </div>
             </div>
         </>
