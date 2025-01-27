@@ -77,7 +77,7 @@ const CarText = () => {
             }
                 </div>
                 <NavLink to={`/cardRent/${params.id}`}>
-                  <BtnSM btn_bg={"#4457ff"} text={"Rent Now"} />
+                  <BtnSM btn_bg={"#3563E9"} text={"Rent Now"} />
                 </NavLink>
               </div>
             </div>
