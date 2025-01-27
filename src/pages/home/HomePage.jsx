@@ -1,13 +1,15 @@
 import Banners from '../../components/banner/Banners'
-import Comment from '../../components/comments/Comment'
-// import StateImages from '../../components/state-img/StateImages'
+// import Card from '../../components/cards/card'
+import PopularCards from '../../components/cards/PopularCards'
+import RecCards from '../../components/cards/RecCards'
 
 const HomePage = () => {
   return (
     <>
-      <Banners/>
-      {/* <StateImages/> */}
-      <Comment/>
+      <Banners />
+      {/* <Card /> */}
+      <PopularCards/>
+      <RecCards/>
     </>
   )
 }

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
@@ -29,7 +29,7 @@
     {
       "id": 2,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
@@ -38,8 +38,8 @@
           "gasoline": 90,
           "capacity": 2,
           "price": 80.00,
-          "discout": 100.00,
-          "discout_price": 0,
+          "discout": true,
+          "discout_price": 100,
           "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
         }
       ],
@@ -55,7 +55,7 @@
     {
       "id": 3,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "like": false,
-      "popular": false,
+      "popular": true,
       "recomended": false,
       "about": [
         {
@@ -90,8 +90,8 @@
           "gasoline": 70,
           "capacity": 6,
           "price": 72.00,
-          "discout": 80.00,
-          "discout_price": 0,
+          "discout": true,
+          "discout_price": 80,
           "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
         }
       ],
@@ -108,7 +108,7 @@
       "id": 5,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "Koenigsegg",
@@ -134,7 +134,7 @@
       "id": 6,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "Nissan GT - R",
@@ -142,8 +142,8 @@
           "gasoline": 90,
           "capacity": 2,
           "price": 80.00,
-          "discout": 100.00,
-          "discout_price": 0,
+          "discout": true,
+          "discout_price": 100,
           "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Fpopular-cars%2Fcar2.png&w=256&q=75"
         }
       ],
@@ -160,7 +160,7 @@
       "id": 7,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "Rolls - Royce",
@@ -186,7 +186,7 @@
       "id": 8,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "All New Rush",
@@ -194,8 +194,8 @@
           "gasoline": 70,
           "capacity": 6,
           "price": 72.00,
-          "discout": 80.00,
-          "discout_price": 0,
+          "discout": true,
+          "discout_price": 80,
           "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
         }
       ],
@@ -212,7 +212,7 @@
       "id": 9,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "CR - V",
@@ -238,7 +238,7 @@
       "id": 10,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "All New Terios",
@@ -264,7 +264,7 @@
       "id": 11,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "New MG ZS",
@@ -290,7 +290,7 @@
       "id": 12,
       "like": false,
       "popular": false,
-      "recomended": false,
+      "recomended": true,
       "about": [
         {
           "title": "MG ZX Exclusive",
@@ -298,8 +298,8 @@
           "gasoline": 70,
           "capacity": 6,
           "price": 72.00,
-          "discout": 80.00,
-          "discout_price": 0,
+          "discout": true,
+          "discout_price": 80,
           "img": "https://morent-website.vercel.app/_next/image?url=%2Fimages%2Frecomendation-cars%2Fcar-1.png&w=256&q=75"
         }
       ],

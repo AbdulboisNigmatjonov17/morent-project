@@ -1,6 +1,13 @@
 import BtnSm from '../btns/btnSM'
 
-const BannerCard = ({ id, title, description, btn_bg, bgColor, img }) => {
+const BannerCard = ({ onClick, id, title, description, btn_bg, bgColor, img }) => {
+
+    const scroll = (id) => {
+        const cardID = document.getElementById(id);
+        if(cardID){
+            cardID.scrollIntoView({behavior: "smooth"})
+        }
+    }
 
     return (
         <>
@@ -8,7 +15,7 @@ const BannerCard = ({ id, title, description, btn_bg, bgColor, img }) => {
                 <div className="bannerCard-content flex flex-col gap-5 items-start w-72">
                     <h3 className='font-medium text-[30px]'>{title}</h3>
                     <p>{description}</p>
-                    <BtnSm btn_bg={btn_bg} text={'Retal Car'} />
+                    <BtnSm btn_bg={btn_bg} text={'Retal Car'} onClick={scroll}/>
                 </div>
                 <img src={img} width={400} alt="banner-card-img" className='absolute right-[10%] bottom-10'/>
             </div>

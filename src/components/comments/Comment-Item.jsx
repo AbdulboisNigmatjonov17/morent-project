@@ -42,7 +42,7 @@ function CommentItem({ task, deleteTask, updateTask }) {
                             </div>
                             <div className='w-full flex justify-between'>
                                 <p className='max-w-[70%] text-[#90A3BF] break-words'>{task.title}</p>
-                                <div className='w-full flex justify-end gap-2 items-end'>
+                                <div className='w-[30%] flex justify-end gap-2 items-end'>
                                     <BtnSM onClick={() => setIsEditing(true)} text={'edit'} btn_bg={'#4ebeff'} />
                                     <BtnSM onClick={() => deleteTask(task.id)} text={'delete'} btn_bg={'#3563E9'} />
                                 </div>
