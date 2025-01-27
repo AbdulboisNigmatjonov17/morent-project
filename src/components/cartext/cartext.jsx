@@ -27,7 +27,7 @@ const CarDetail = ({ car }) => {
   );
 };
 
-const App = () => {
+const Cartext = () => {
   const [carsData, setCarsData] = useState([]);
 
   useEffect(() => {
@@ -60,4 +60,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Cartext;
