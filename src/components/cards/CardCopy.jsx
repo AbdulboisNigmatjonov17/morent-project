@@ -72,7 +72,9 @@ const CardCopy = () => {
                                     </div>
                                 </div>
                                 <div className="flex justify-center h-[150px] items-center">
-                                    <img className="w-[250px] pt-4" src={aboutItem.img} alt="carFoto" />
+                                    <NavLink to={`/card/${item.id}`}>
+                                        <img className="w-[250px] pt-4" src={aboutItem.img} alt="carFoto" />
+                                    </NavLink>
                                 </div>
                                 <div className="text-center w-full flex justify-between pt-5">
                                     <p className="text-sm text-[#7bbad1] flex items-center gap-1">
