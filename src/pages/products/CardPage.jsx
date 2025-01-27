@@ -13,7 +13,7 @@ const ProductPage = () => {
     <>
       <div className='my-5'>
         <StateImages />
-        <Cartext />
+        {/* <Cartext /> */}
       </div>
       <div>
         ID: {id}
