@@ -11,7 +11,11 @@ const ProductPage = () => {
       <div className='my-5 w-full flex justify-between'>
         <StateImages />
         <div className='w-[50%]'>
+<<<<<<< HEAD
           <Cartext />
+=======
+                 <Cartext />
+>>>>>>> 80bcf0397d6d642d2ffb56b4fb60cd1ffefff497
         </div>
       </div>
       <Comment />

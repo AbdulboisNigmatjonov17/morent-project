@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import axios from '../service/Api'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
@@ -32,9 +33,14 @@ const CarText = () => {
   if (error) {
     return <h2>{error}</h2>
   }
+=======
+import React from 'react'
+>>>>>>> 80bcf0397d6d642d2ffb56b4fb60cd1ffefff497
 
+const cartext = () => {
   return (
     <div>
+<<<<<<< HEAD
       <h2>ID: {params.id}</h2>
       {
         data && data.details && data.details.map((details) => (
@@ -43,8 +49,15 @@ const CarText = () => {
           </div>
         ))
       }
+=======
+      
+>>>>>>> 80bcf0397d6d642d2ffb56b4fb60cd1ffefff497
     </div>
   )
 }
 
+<<<<<<< HEAD
 export default CarText
+=======
+export default cartext
+>>>>>>> 80bcf0397d6d642d2ffb56b4fb60cd1ffefff497
