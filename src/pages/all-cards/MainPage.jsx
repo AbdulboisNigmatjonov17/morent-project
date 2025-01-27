@@ -8,7 +8,7 @@ const MainPage = () => {
       <nav className='max-w-[20%]'>
         <Filter />
       </nav>
-      <section className='max-w-[85%]'>
+      <section className='max-w-[85%] flex flex-col gap-5'>
         <LocationData />
         <Outlet />
       </section>
