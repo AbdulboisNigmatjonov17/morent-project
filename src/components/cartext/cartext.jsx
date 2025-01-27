@@ -1,63 +1,50 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import axios from '../service/Api'
+import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+import { v4 as uuidv4 } from 'uuid'
 
-const CarCard = ({ car, toggleLike }) => {
-  return (
-    <div className="card">
-      <img src={car.about[0].img} alt={car.about[0].title} />
-      <h2>{car.about[0].title}</h2>
-      <p>{car.details[0].description}</p>
-      <button onClick={() => toggleLike(car.id)} className="bg-blue-500 text-white p-2">
-        {car.like ? "Liked" : "Like"}
-      </button>
-      <Link to={`/car/${car.id}`} className="bg-green-500 text-white p-2 ml-2">View Details</Link>
-    </div>
-  );
-};
-
-const CarDetail = ({ car }) => {
-  return (
-    <div className="car-detail">
-      <img src={car.about[0].img} alt={car.about[0].title} />
-      <h1>{car.about[0].title}</h1>
-      <p>{car.details[0].description}</p>
-      <p>Price: ${car.about[0].price}</p>
-      <p>Capacity: {car.about[0].capacity} people</p>
-    </div>
-  );
-};
-
-const Cartext = () => {
-  const [carsData, setCarsData] = useState([]);
+const CarText = () => {
+  const [data, setData] = useState(null)
+  const [error, setError] = useState(null)
+  const params = useParams()
 
   useEffect(() => {
-    fetch('http://localhost:5000/cars')
-      .then(response => response.json())
-      .then(data => setCarsData(data));
-  }, []);
+    const getData = async () => {
+      try {
+        const res = await axios.get('/cars')
+        const filteredData = res.data.find(item => item.id === params.id)
 
-  const toggleLike = (id) => {
-    setCarsData(prevState => prevState.map(car => 
-      car.id === id ? { ...car, like: !car.like } : car
-    ));
-  };
+        if (filteredData) {
+          setData(filteredData)
+          console.log(filteredData)
+          console.log(filteredData.details)
+        } else {
+          setError('Car not found')
+        }
+      } catch (error) {
+        setError('An error occurred')
+        console.log(error)
+      }
+    }
+    getData()
+  }, [params.id])
+
+  if (error) {
+    return <h2>{error}</h2>
+  }
 
   return (
-    <Router>
-      <div className="App">
-        <h1>Popular Cars</h1>
-        <div className="car-list">
-          {carsData.map(car => (
-            <CarCard key={car.id} car={car} toggleLike={toggleLike} />
-          ))}
-        </div>
+    <div>
+      <h2>ID: {params.id}</h2>
+      {
+        data && data.details && data.details.map((details) => (
+          <div key={uuidv4()}>
+            <h1>revi{details.reviewer}</h1>
+          </div>
+        ))
+      }
+    </div>
+  )
+}
 
-        <Routes>
-          <Route path="/car/:id" element={<CarDetail car={car} />} />
-        </Routes>
-      </div>
-    </Router>
-  );
-};
-
-export default Cartext;
+export default CarText

@@ -8,9 +8,11 @@ const ProductPage = () => {
 
   return (
     <>
-      <div className='my-5'>
+      <div className='my-5 w-full flex justify-between'>
         <StateImages />
-        {/* <Cartext /> */}
+        <div className='w-[50%]'>
+          <Cartext />
+        </div>
       </div>
       <Comment />
       <PopularCards />
