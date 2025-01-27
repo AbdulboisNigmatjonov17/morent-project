@@ -81,7 +81,7 @@ const Card = ({ item, about, setData }) => {
               ${about.price} <span className="text-[#7bbad1]">/day</span>
             </h1>
             {
-              about.discout ? <h2 className='text-[#aaaa] text-[18px] font-medium'>{about.discout_price}</h2> : ''
+              about.discout ? <s className='text-[#aaaa] text-[18px] font-semibold'>{about.discout_price}</s> : ''
             }
             
           </div>

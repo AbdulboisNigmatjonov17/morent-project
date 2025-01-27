@@ -1,40 +1,44 @@
 import React, { useEffect, useState } from 'react'
 import axios from "../../service/Api";
-import Card from '../../cards/CardComp';
 import { v4 as uuidv4 } from 'uuid'
-
+import CardComp from '../../cards/CardComp'
 const People4 = () => {
   const [data, setData] = useState([])
+  const [error, setError] = useState(null)
 
   useEffect(() => {
     const getFilteredCars = async () => {
       try {
-        const response = await axios.get("/cars");
-        const cars = response.data;
-        console.log("Response data:", cars);
+        const res = await axios.get('/cars')
+        const filteredData = res.data.filter(item =>
+          item.about.some(aboutItem => aboutItem.capacity === 4)
+        )
 
-        const filteredCars = cars.filter((car) =>
-          car.about.some((item) => {
-            console.log("Checking capacity:", item.capacity);
-            return Number(item.capacity) === 4;
-          })
-        );
-
-        console.log("Filtered Cars:", filteredCars);
-        setData(filteredCars);
+        if (filteredData.length > 0) {
+          setData(filteredData)
+        } else {
+          setError('Car not found')
+        }
       } catch (error) {
-        console.error("Error fetching cars:", error.message);
+        setError('An error occurred')
+        console.log(error)
       }
     };
 
     getFilteredCars();
   }, []);
 
+  if (error) {
+    return <h2>{error}</h2>
+  }
+
   return (
     <div className='max-w-full grid grid-cols-3 gap-5'>
       {
-        data.map((item) => (
-          <Card key={uuidv4()} item={item} about={item.about} setData={setData} />
+        data.length > 0 && data.map((item) => (
+          item.about.map((aboutItem) => aboutItem.capacity === 4 && (
+            <CardComp item={item} about={aboutItem} key={uuidv4()} />
+          ))
         ))
       }
     </div>
