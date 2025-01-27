@@ -10,8 +10,8 @@ const StateImages = () => {
     return (
         <>
             <div className='w-[40%] flex flex-col gap-5'>
-                <div className='w-full h-[450px]'>
-                    <img src={img} alt="state-img-main" className='rounded-2xl w-full' />
+                <div className='w-full h-[370px]'>
+                    <img src={img} alt="state-img-main" className='rounded-2xl w-full h-full' />
                 </div>
                 <div className="imgs flex justify-between ">
                     <img src={img1} width={150} height={150} onClick={() => setImg(img1)} alt="state-img-1" className='rounded-xl cursor-pointer' />
