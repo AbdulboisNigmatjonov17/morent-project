@@ -36,7 +36,7 @@ const Footer = () => {
                 {item.p}
               </li> </a>
               <a href="/"><li className="text-lg font-medium text-[#7bbad1]">{item.p1}</li></a>
-              <a href="/"><li className="text-lg font-medium text-[#7bbad1]">{item.p2}</li></a>
+              <a href="https://www.instagram.com/abdulbois_707/?igsh=M2V6ZGR3eXl3MmZ3#"><li className="text-lg font-medium text-[#7bbad1]">{item.p2}</li></a>
               <a href="/"><li className="pb-8 text-lg font-medium text-[#7bbad1]">
                 {item.p3}
               </li></a>
