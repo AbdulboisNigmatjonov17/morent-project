@@ -22,21 +22,17 @@ const Card = () => {
     getCard();
   }, []);
 
-  // LocalStorage bilan ishlash uchun like funksiyasi
   const handleLike = (itemId) => {
     const likedCarsString = localStorage.getItem("likedCars");
     const likedCars = likedCarsString ? JSON.parse(likedCarsString) : [];
 
     if (likedCars.includes(itemId)) {
-      // Agar like qilingan bo'lsa, undan olib tashlash
       const updatedLikes = likedCars.filter((id) => id !== itemId);
       localStorage.setItem("likedCars", JSON.stringify(updatedLikes));
     } else {
-      // Agar hali like qilinmagan bo'lsa, qo'shish
       localStorage.setItem("likedCars", JSON.stringify([...likedCars, itemId]));
     }
 
-    // Like qilingan ma'lumotlarni qayta yuklash
     setCard((prevData) =>
       prevData.map((item) =>
         item.id === itemId ? { ...item, isLiked: !item.isLiked } : item
@@ -47,15 +43,16 @@ const Card = () => {
   return (
     <>
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-8">
-        {cardData.map((item) => (
+        {cardData.map((item) =>
           item.about?.map((aboutItem) => {
-            // LocalStorage'dan like holatini olish
             const likedCarsString = localStorage.getItem("likedCars");
             const likedCars = likedCarsString ? JSON.parse(likedCarsString) : [];
             const isLiked = likedCars.includes(item.id);
-
             return (
-              <div key={`${item.id}-${aboutItem.title}`} className="bg-white p-4 rounded-lg w-full flex flex-col justify-between px-6">
+              <div
+                key={`${item.id}-${aboutItem.title}`}
+                className="bg-white p-4 rounded-lg w-full flex flex-col justify-between px-6"
+              >
                 <div className="w-full flex justify-between">
                   <div>
                     <h1 className="text-xl font-bold mb-2">{aboutItem.title}</h1>
@@ -77,7 +74,11 @@ const Card = () => {
                   </div>
                 </div>
                 <div className="flex justify-center h-[150px] items-center">
-                  <img className="w-[250px] pt-4" src={aboutItem.img} alt="carFoto" />
+                  <img
+                    className="w-[250px] pt-4"
+                    src={aboutItem.img}
+                    alt="carFoto"
+                  />
                 </div>
                 <div className="text-center w-full flex justify-between pt-5">
                   <p className="text-sm text-[#7bbad1] flex items-center gap-1">
@@ -99,10 +100,10 @@ const Card = () => {
               </div>
             );
           })
-        ))}
+        )}
       </div>
       <div className="w-full flex justify-center">
-        <BtnSM btn_bg={'#3563E9'} text={'Show More Car'} />
+        <BtnSM btn_bg={"#3563E9"} text={"Show More Car"} />
       </div>
     </>
   );

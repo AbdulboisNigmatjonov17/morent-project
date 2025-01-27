@@ -35,7 +35,7 @@ const Footer = () => {
               <a href="/"><li className="text-lg pt-3 font-medium text-[#7bbad1]">
                 {item.p}
               </li> </a>
-              <a href="https://www.instagram.com/nazarovvv_o1/"><li className="text-lg font-medium text-[#7bbad1]">{item.p1}</li></a>
+              <a href="/"><li className="text-lg font-medium text-[#7bbad1]">{item.p1}</li></a>
               <a href="/"><li className="text-lg font-medium text-[#7bbad1]">{item.p2}</li></a>
               <a href="/"><li className="pb-8 text-lg font-medium text-[#7bbad1]">
                 {item.p3}
