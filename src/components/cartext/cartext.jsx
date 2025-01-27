@@ -32,14 +32,14 @@ const CarText = () => {
   if (error) {
     return <h2>{error}</h2>
   }
-  
+
   return (
     <div>
       <h2>ID: {params.id}</h2>
       {
         data && data.about && data.about.map((about) => (
           <div key={uuidv4()}>
-            <h1>title {about.title}</h1>
+            <h1>revi{about.title}</h1>
           </div>
         ))
       }
