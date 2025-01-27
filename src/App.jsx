@@ -13,6 +13,7 @@ import HatchbakType from "./components/filter-cards/types/HatchbakType"
 import People2 from './components/filter-cards/capacities/People2'
 import People4 from './components/filter-cards/capacities/People4'
 import People6 from './components/filter-cards/capacities/People6'
+import CardCopy from "./components/cards/CardCopy"
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
           path: 'cards',
           element: <MainPage />,
           children: [
+            {index: true, element: <CardCopy/>},
             { path: "sport-type", element: <SportType /> },
             { path: "sedan-type", element: <SedanType /> },
             { path: "suv-type", element: <SuvType /> },

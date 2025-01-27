@@ -3,7 +3,10 @@ import { NavLink } from 'react-router-dom'
 
 const MainLaout = () => {
   return (
-    <div className='max- w-[20%] px-10 py-5 bg-white flex flex-col gap-5'>
+    <div className='max-w-full px-10 py-5 bg-white flex flex-col gap-5'>
+      <NavLink to={'/cards'}>
+      All
+      </NavLink>
       <div>
         <h3>Type</h3>
         <ul>

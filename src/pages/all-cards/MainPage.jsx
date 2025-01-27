@@ -3,8 +3,8 @@ import Filter from '../../components/filter-cards/Filter'
 import { Outlet } from 'react-router-dom'
 const MainPage = () => {
   return (
-    <section className='w-full flex justify-between gap-10'>
-      <nav className='w-full'>
+    <section className='w-full flex justify-between gap-5'>
+      <nav className='max-w-[30%]'>
         <Filter />
       </nav>
       <section className='max-w-[70%]'>
