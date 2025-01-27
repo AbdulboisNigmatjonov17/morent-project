@@ -17,7 +17,7 @@ const CarText = () => {
         if (filteredData) {
           setData(filteredData)
           console.log(filteredData)
-          console.log(filteredData.details)
+          console.log(filteredData.about)
         } else {
           setError('Car not found')
         }
@@ -37,9 +37,9 @@ const CarText = () => {
     <div>
       <h2>ID: {params.id}</h2>
       {
-        data && data.details && data.details.map((details) => (
+        data && data.about && data.about.map((about) => (
           <div key={uuidv4()}>
-            <h1>revi{details.reviewer}</h1>
+            <h1>title {about.title}</h1>
           </div>
         ))
       }
