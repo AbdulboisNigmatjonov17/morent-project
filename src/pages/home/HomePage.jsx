@@ -1,13 +1,13 @@
 import Banners from '../../components/banner/Banners'
-// import Card from '../../components/cards/card'
 import PopularCards from '../../components/cards/PopularCards'
 import RecCards from '../../components/cards/RecCards'
+import PickUp from '../../components/PIck-Up/PickUp'
 
 const HomePage = () => {
   return (
     <>
       <Banners />
-      {/* <Card /> */}
+      <PickUp />
       <PopularCards/>
       <RecCards/>
     </>

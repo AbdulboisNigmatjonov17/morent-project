@@ -373,7 +373,10 @@
         "id": 3,
         "h1": "Time",
         "p": "Select your time"
-    },
+    }
+  ],
+
+  "Drop-Off": [
     {
         "id": 4,
         "h1": "Loacations",
@@ -389,5 +392,5 @@
         "h1": "Loacations",
         "p": "Select your time"
     }
- ]
-}
+  ]
+  }

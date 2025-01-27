@@ -3,6 +3,7 @@ import StateImages from '../../components/state-img/StateImages'
 import Comment from '../../components/comments/Comment'
 import { useParams } from 'react-router-dom'
 import PopularCards from '../../components/cards/PopularCards'
+import Cartext from '../../components/cartext/cartext'
 
 const ProductPage = () => {
 
@@ -12,6 +13,7 @@ const ProductPage = () => {
     <>
       <div className='my-5'>
         <StateImages />
+        <Cartext />
       </div>
       <div>
         ID: {id}
