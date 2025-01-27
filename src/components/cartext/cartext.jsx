@@ -5,6 +5,7 @@ const CarDetails = () => {
   const [cars, setCars] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  // JSON serverdan ma'lumotlarni olish
   useEffect(() => {
     const fetchCars = async () => {
       try {
@@ -19,6 +20,7 @@ const CarDetails = () => {
     fetchCars();
   }, []);
 
+  // Star ma'lumotini yangilash
   const updateStar = (id, newStar) => {
     const updatedCars = cars.map((car) =>
       car.id === id
