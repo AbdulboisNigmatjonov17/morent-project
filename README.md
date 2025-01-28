@@ -16,4 +16,8 @@ Loyihani o'rnatish uchun quyidagi buyruqlarni bajarish kerak:
 
 1. **Loyihani yuklab olish**:
    ```bash
-   git clone <repository-link>
+   npm i json-server
+2. **Loyihadan foydalanish**:
+   ```bash
+   json-server --watch db.json
+
