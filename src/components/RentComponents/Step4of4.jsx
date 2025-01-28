@@ -2,7 +2,7 @@ import React from 'react'
 
 const Step4of4 = () => {
   return (
-    <div className='bg-white w-[50%] py-5 px-10 rounded-lg'>
+    <div className='max-w-full bg-white py-5 px-10 rounded-lg'>
         <div className='w-full flex justify-between'>
                 <div>
                     <h3 className='font-bold text-[20px]'>Confirmation</h3>

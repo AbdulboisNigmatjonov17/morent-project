@@ -6,7 +6,7 @@ const Step3of4 = () => {
     const paypal = 'https://morent-website.vercel.app/_next/image?url=%2Fimages%2Flogo%2FPayPal.png&w=96&q=75'
     const bitcoin = 'https://morent-website.vercel.app/_next/image?url=%2Fimages%2Flogo%2FBitcoin.png&w=96&q=75'
     return (
-        <div className='bg-white w-[50%] py-5 px-10 rounded-lg'>
+        <div className='max-w-full bg-white py-5 px-10 rounded-lg'>
             <div className='w-full flex justify-between'>
                 <div>
                     <h3 className='font-bold text-[20px]'>Billing Info</h3>
