@@ -15,7 +15,7 @@ const CarText = () => {
       try {
         const res = await axios.get("/cars");
         const filteredData = res.data.find(
-          (item) => item.id === parseInt(params.id, 10)
+          (item) => item.id === params.id
         );
         if (filteredData) {
           setData(filteredData);
@@ -45,7 +45,7 @@ const CarText = () => {
               <h1 className="text-3xl font-bold">{about.title}</h1>
               <h2 className="text-[#7bbad1] text-xl font-semibold pt-[10px]">
                 yulduz qoy
-                 {about.reviewer}+Reviewer
+                {about.reviewer}+Reviewer
               </h2>
               <p className="text-[#7bbad1] pt-[25px] w-[350px]">{about.description}</p>
               <div className="flex justify-start gap-5 pt-[10px] text-lg">
@@ -68,13 +68,13 @@ const CarText = () => {
               </div>
               <div className="flex gap-[180px] pt-[35px]">
                 <div>
-                <h1 className="text-lg font-bold">
-                  ${about.price}.00/
-                  <span className="text-[#7bbad1] text-sm">days</span>
-                </h1>
-                {
-              about.discout ? <s className='text-[#aaaa] text-[18px] font-semibold'>${about.discout_price}.00</s> : ''
-            }
+                  <h1 className="text-lg font-bold">
+                    ${about.price}.00/
+                    <span className="text-[#7bbad1] text-sm">days</span>
+                  </h1>
+                  {
+                    about.discout ? <s className='text-[#aaaa] text-[18px] font-semibold'>${about.discout_price}.00</s> : ''
+                  }
                 </div>
                 <NavLink to={`/cardRent/${params.id}`}>
                   <BtnSM btn_bg={"#3563E9"} text={"Rent Now"} />
