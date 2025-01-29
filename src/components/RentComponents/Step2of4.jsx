@@ -11,9 +11,13 @@ const Step2of4 = () => {
                 <h3>Step 2 of 4</h3>
             </div>
             <form className='mt-5'>
+                <div className='flex items-center gap-3'>
+                <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse">
+                </div>
                 <h1 className='text-[25px] font-semibold'>
                     Pick - Up
                 </h1>
+                </div>
                 <div className=''>
                     <div className='flex justify-between gap-5'> 
                         <div className='flex flex-col'> 
@@ -36,9 +40,14 @@ const Step2of4 = () => {
                 </div>
             </form>
             <form className='mt-5'>
+                <div className='flex items-center gap-3'>
+                <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse">
+            </div>
                 <h1 className='text-[25px] font-semibold'>
+
                     Drop - Off
                 </h1>
+                </div>
                 <div className=''>
                     <div className='flex justify-between gap-5'> 
                         <div className='flex flex-col'> 

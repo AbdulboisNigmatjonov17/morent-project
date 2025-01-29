@@ -7,14 +7,14 @@ import Step4of4 from "../../components/RentComponents/Step4of4";
 
 const RentCard = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between gap-8">
       <div className="max-w-[50%] flex flex-col gap-8">
         <Step1of4 />
         <Step2of4 />
         <Step3of4 />
         <Step4of4 />
       </div>
-      <div className="w-[40%]">
+      <div className="w-[60%]">
         <Car />
       </div>
     </div>
