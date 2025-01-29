@@ -12,4 +12,5 @@ Loyihani o'rnatish uchun quyidagi buyruqlarni terminalda bajarish kerak:
 2. **Loyihadan foydalanish**:
    ```bash
    json-server --watch db.json
-
+2. **Va mana shu silkaga kirishingiz kerak**:
+   https://morent-project-rico.vercel.app/
