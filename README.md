@@ -4,7 +4,7 @@ Morent — bu project moshinalani rent ya'ni ijaraga olish uchun yordam beradiga
 
 ## O'rnatish
 
-Loyihani o'rnatish uchun quyidagi buyruqlarni terminalda bajarish kerak:
+Loyihani o'rnatish uchun quyidagi buyruqlarni terminalda bajarish kerak, chunki loyiha data si json-server orqali qlingan
 
 1. **Loyihani yuklab olish**:
    ```bash
