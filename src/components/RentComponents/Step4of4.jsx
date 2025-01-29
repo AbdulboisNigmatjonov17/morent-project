@@ -8,7 +8,7 @@ const Step4of4 = () => {
                     <h3 className='font-semibold text-[20px]'>Confirmation</h3>
                     <h2 className='text-[#646464aa] pl-1 font-medium'>We are getting to the end. Just few clicks <br /> and your rental is ready!</h2>
                 </div>
-                <h3>Step 4 of 4</h3>
+                <h3 className='text-[#646464aa] font-medium text-[17px]'>Step 4 of 4</h3>
             </div>
             <form className='flex flex-col gap-5 items-start'>
                 <div className='flex gap-3 py-2 px-5 pb-10 rounded-md bg-[#eeee]'>
