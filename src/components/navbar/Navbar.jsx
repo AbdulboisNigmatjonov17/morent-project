@@ -5,12 +5,25 @@ import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
 import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 import NotificationsSharpIcon from '@mui/icons-material/NotificationsSharp';
 import FavoriteSharpIcon from '@mui/icons-material/FavoriteSharp';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
-
+  const [likeL, setLikeL] = useState(0)
   const user = 'https://morent-website.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FImageprofile.a9ab6a22.png&w=64&q=75'
-
+  useEffect(() => {
+    const getLike = () => {
+      try {
+        const like = localStorage.getItem('likedCars');
+        if (like) {
+          setLikeL(JSON.parse(like).length);
+        }
+      } catch (error) {
+        console.error("Error fetching liked cars:", error);
+      }
+    };
+    getLike();
+  }, [likeL]);
   return (
     <>
       <nav className="w-full h-[10vh] flex items-center justify-between bg-white px-5">
@@ -36,10 +49,11 @@ const Navbar = () => {
             <div className="icon rounded-full border-[#c1c1c1] border-[1px] p-2">
               <NotificationsSharpIcon className='rounded-full cursor-pointer' />
             </div>
-            <div className="icon rounded-full border-[#c1c1c1] border-[1px] p-2">
-              <NavLink to={'/like'}>
-              <FavoriteSharpIcon className='rounded-full cursor-pointer' />
-              </NavLink>
+            <div className="icon rounded-full border-[#c1c1c1] border-[1px] p-2 relative">
+              {/* <NavLink to={'/like'}> */}
+                <FavoriteSharpIcon className='rounded-full cursor-pointer ' />
+              {/* </NavLink> */}
+              <span className='absolute top-1/2 right-2/2 bg-red-500 text-white p-1 rounded-full px-2'>{likeL}</span>
             </div>
             <div className="icon rounded-full cursor-pointer flex justify-center">
               <img src={user} width={60} alt="uer-img" className='rounded-full transition ease-in-out delay-150 hover:scale-125' />
